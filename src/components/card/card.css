@@ -2,6 +2,8 @@
   /* Sizing */
   height: 100%;
   width: 100%;
+  
+  transform-style: preserve-3d;
 
   /* Content Alignment */
   position: relative;
@@ -17,6 +19,9 @@
   /* Sizing */
   height: 100%;
   width: 100%;
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 
   /* Alignment */
   position: absolute;
@@ -40,4 +45,5 @@
 
 .card-back {
   background-color: #ffad66;
+  transform: rotateY(180deg);
 }

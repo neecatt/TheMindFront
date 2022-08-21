@@ -1,4 +1,5 @@
 import "./card.css";
+import "./flip-transition.css";
 
 function Card({onClick}) {
   return (

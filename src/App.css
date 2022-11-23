@@ -1,3 +1,5 @@
+
+
 .App {
   /* === Sizing === */
   width: 100vw;
@@ -7,4 +9,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
+}
+
+.about {
+  display: flex;
+  align-items: center;  
 }

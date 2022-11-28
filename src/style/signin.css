@@ -1,0 +1,75 @@
+.main-wrapper {
+    position: relative;
+    width:80%;
+    margin: auto;
+    margin-top: 5%;
+    height: 35em;
+    border-radius: 2em;
+    box-shadow: 0.2em 0.6em 2em;
+}
+.rightForBg
+{
+    background-color: none;
+}
+.left {
+    position: absolute;
+    transition-duration: 1s;
+    left: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+}
+.right {
+    right: 0;
+    transition-duration: 1s;
+    position: absolute;
+    height: 100%;
+    padding: 5px;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: #010E1F;
+}
+
+
+
+.left-on-click
+{
+    left: 100%;
+    transform: translateX(-100%);
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+.right-on-click
+{
+    right: 100%;
+    transform: translateX(100%);
+    border-radius: 0;
+    background-color: #46230D;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+.icon
+{
+    display: inline-block;
+    padding: 10px;
+}
+
+.create-account
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-register
+{
+    margin: 0.5em;
+}
